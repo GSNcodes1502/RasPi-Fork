@@ -26,7 +26,8 @@
   - Contains general info about all the camera modules. Relevant sections : v1
 - https://www.raspberrypi.com/documentation/accessories/camera.html
 -  https://docs.rs-online.com/2888/0900766b8127db0a.pdf
-  - This contains the specifications for the camera module currently being used: the v1.3   
+  - This contains the specifications for the camera module currently being used: the v1.3
+- 
 ## Extra links that may be relevant
 - https://libcamera.org/
   - libcamera is the userspace camera stack used by PiCamera2. Note: openCV has not got builtin support for the libcamera stack, which includes the RasPi camera modules, so openCV's Video.Capture(0) will bring up an error.
@@ -34,11 +35,13 @@
 - https://docs.kernel.org/userspace-api/media/v4l/colorspaces-defs.html
   - v4l2 is the kernel driver used to interface with the camera
 - [SSH into RasPi](https://www.makeuseof.com/how-to-ssh-into-raspberry-pi-remote/)
+
+- [OpenCV documentation of the implementation of the color spaces (C++)](https://docs.opencv.org/4.x/d8/d01/group__imgproc__color__conversions.html)
+- [MicroPython: Running Python on the ESP32 ](https://docs.micropython.org/en/latest/esp32/tutorial/intro.html) 
 - https://dangitgit.com/
 - https://picamera.readthedocs.io/en/release-1.13/fov.html
 	- How the camera hardware works under the hood
- - https://github.com/opencv/opencv/issues/21653
- 	- openCV issue for merging libcamera support into OpenCV 	
+
 
 ## Notes/Common Errors
 - Error: `error: externally-managed-environment`
